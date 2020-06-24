@@ -1,7 +1,15 @@
-
+header {
+    widows: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    float: right;
+   left: 36%;
+    right: 0;
+}
 body {
     margin= 0;
-    background-image: url("../img/bk.png");
+    background-image: url("../img/bk_2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -10,10 +18,11 @@ body {
     height: 100%;
 }
 .redes-container {
-    top:0;
+    top:90px;
     box-sizing: border-box;
     align-items: flex-end;
     justify-content:flex-end;
+    width: 100%;
 }
 #redes-container ul li {
     
@@ -24,13 +33,31 @@ body {
     margin: 0 5px;
     
 }
-.logo {
-    padding-left: 50;
-    max-width:80%;
-    max-height: 100;
-    align-items: center;
-    margin-left: auto;
-    align-items: center;
-    image-orientation: center;
-    position: relative;
+
+
+.boton {
+  margin-top: 415px;
+  height: 100%;
+  width: 100%;
+  left: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 80px; /*bordes redondos*/
+ 
+
+}
+
+#button {
+    top:95px;
+    width:90px;
+    height: 90px;
+    float: center;
+    background: transparent;
+    outline: none;
+    border: none !important;
+    border-radius: 50px; /*b
+    
+    
+    
 }
